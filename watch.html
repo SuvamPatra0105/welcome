@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title>My project</title>
+<style>
+
+div{
+
+position:absolute;
+text-align:center;
+top:46.5%;
+
+left:50%;
+width:40%;
+margin:5%;
+transform:translate(-50%,-50%);
+font-size:200%;
+font-weight:bold;
+text-shadow:
+			2px 2px white,
+			5px 5px 4px#ee82ee,
+			8px 8px 4px #4b0082,
+			10px 10px 4px #0000ff,
+			12px 12px 4px  #008000,
+			14px 14px 4px #ffff00,
+			16px 16px 4px #ffa500,
+			19px 19px 4px #ff0000;
+}
+#a{
+border:5px inset brown;
+border-radius:50%;
+width:120px;
+height:150px;
+position:absolute;
+text-align:center;
+margin-right:5px;
+top:49%;
+left:8%;
+transform:translate(50%,-50%);
+
+}
+#b{
+border:5px inset brown;
+border-radius:50%;
+width:120px;
+height:150px;
+margin-left:5px;
+position:absolute;
+text-align:center;
+top:49%;
+right:18%;
+transform:translate(50%,-50%);
+}
+
+
+p{
+margin-bottom:-2%;
+
+}
+img:nth-child(2){
+position:absolute;
+animation-name: example;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {left:0px; bottom:0px;}
+  25%  {left:0%; bottom:88%;}
+  50%  {left:88%; top:0;}
+  75%  {left:88%; top:95%;}
+  100% {left:0%;top:95%;}
+}
+
+
+img:nth-child(3){
+position:absolute;
+animation-name: example1;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+}
+@keyframes example1 {
+ 0%  {left:88%; top:0;}
+  25%  {left:88%; top:95%;}
+  50% {left:0%;top:95%;}
+  75%  {left:0%; top:0%;}
+  100%   {left:88%; top:0;}
+  
+}
+
+img:nth-child(4){
+position:absolute;
+animation-name: example2;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+}
+@keyframes example2 {
+  0%   {left:88%; top:94%;}
+  50%  {left:0%; top:0%;}
+  75%  {left:88%; top:0%;}
+  100%  {left:88%; top:94%;}
+  25% {left:0%;top:94%;}
+}
+
+img:nth-child(1){
+position:absolute;
+animation-name: example3;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+}
+@keyframes example3 {
+  100%   {left:0%; top:0%;}
+  0%  {left:0%; top:0%;}
+  25%  {left:88%; top:0%;}
+  50%  {left:88%; top:95%;}
+  75% {left:0%;top:95%;}
+}
+
+img:nth-child(5){
+position:absolute;
+top:0;
+left:45%;
+}
+
+img:nth-child(6){
+position:absolute;
+top:94%;
+left:45%;
+}
+
+
+</style>
+</head>
+<body>
+<img src="giphy.gif" height="150px" weight="150px"></img>
+<img src="giphy (1).gif" height="150px" weight="150px"></img>
+<img src="giphy (2).gif" height="150px" weight="150px"></img>
+<img src="giphy (4).gif" height="150px" weight="150px"></img>
+
+<img src="giphy (5).gif" height="150px" weight="150px"></img>
+<img src="giphy (6).gif" height="150px" weight="150px"></img>
+
+<div>
+
+<p>কিরে মেয়ে খুঁজতে এসেছিস এখানে?  </p>
+<p>বাল ছেড়!  </p>
+
+</div>
+<img src="arka.jpg" height="100px" weight="100px" id="a"></img>
+<img src="arka.jpg" height="100px" weight="100px" id="b"></img>
+
+
+</body>
+</html>
