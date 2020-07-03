@@ -33,7 +33,7 @@ img{
 	
 	width:100%;
 }
-@media (max-width:567px){
+@media (min-width:567px){
 .submit{
 	
 	max-width:18%;
