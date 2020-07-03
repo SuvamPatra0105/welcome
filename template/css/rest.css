@@ -33,7 +33,7 @@ img{
 	
 	width:100%;
 }
-@media (min-width:567px){
+
 .submit{
 	
 	max-width:18%;
@@ -48,4 +48,4 @@ h1{
 	text-align:center;
 	margin:0 auto;
 	font-size:100%;
-}}
+}
